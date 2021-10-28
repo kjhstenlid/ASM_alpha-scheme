@@ -1,0 +1,9 @@
+str2alpha+BE.py is a script for analyzing binding energy and coordination vector for
+Pt surface sites of bimetallic nanoparticles
+
+alpha+BE_cubo561.data is the output of using the above script for a cuboctahedral Pt561,
+with structure in POSCAR_CUBO_561 (VASP format)
+
+use: python3 str2alpha+BE.py POSCAR_CUBO_561 > alpha+BE_cubo561.data
+to obtain the same data with the Atomic simulation environment (ASE) and ASAP3 installed
+
