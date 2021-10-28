@@ -1,0 +1,26 @@
+Scripts written 2019-2021 by Tej Choksi (NTU and SUNCAT SLAC/Stanford)
+ with help from Verena Streibel (SUNCAT SLAC/Stanford)
+ and Joakim Halldin Stenlid (SUNCAT SLAC/Stanford)
+
+The scripts execute a microkinetic model for NO decomposition over Pt catalysts
+ that is described in the paper
+ 'Assessing Catalytic Rates of Bimetallic Nanoparticles with Active Site Specificity - A
+  Case Study using NO Decomposition'
+ with authors Joakim Halldin Stenlid, Verena Streibel, Tej Choksi, Frank Abild-Pedersen
+ currently under revision (Oct 2021)
+
+The scripts are distributed in folders based on temperature and site
+ Temperatures (700K, 900K)
+ Sites (7-7, 8-8, 9-9-9)
+
+In the folder 700/9-9-9/ there are additional scripts for performing analysis of kinetic
+ metrics: apparent activation energy, degree of rate control, rate orders
+
+For each folder, there are is a run.py script that runs the microkinetic model
+ syntax: python3 run.py
+
+The first part of the run.py script can be modified to adjust the conditions and/or site 
+
+All files also contain example output files in .cvs format
+
+
